@@ -1,0 +1,146 @@
+@import "./libs.scss";
+.main-container {
+  * {
+    font-family: "DINNextCYR";
+  }
+}
+.headerClass {
+  .destek {
+    top: 100px;
+  }
+}
+.title-bottom-border {
+  height: 4px;
+  background: #e1ecf2;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  width: 100vw;
+  background-color: #e1ecf2;
+  height: 100vh;
+  z-index: 9;
+
+  &.fadeout {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+  }
+}
+
+body,
+html {
+  overflow-x: hidden !important;
+  font-family: $font-family-sans-serif;
+}
+.bord-s {
+  display: none;
+}
+
+.ReactCollapse--collapse {
+  transition: all 0.5s ease-in-out;
+}
+.banner {
+  position: relative;
+  min-height: 204px;
+  margin-bottom: 50px;
+  background: linear-gradient(rgba(151, 56, 64, 0) 70%, #004273 100%, #004273 40%);
+
+  img {
+    min-height: 204px;
+    position: relative;
+    z-index: -1;
+  }
+}
+.swiper-wrapper {
+  height: 186px !important;
+  display: flex;
+  align-items: center;
+}
+@import "./fonts.scss";
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+.icon-GIE:before {
+  content: "\e900";
+}
+.icon-GIF:before {
+  content: "\e901";
+}
+.icon-GOF:before {
+  content: "\e902";
+}
+.icon-LDF:before {
+  content: "\e903";
+}
+.icon-left-button:before {
+  content: "\e905";
+}
+.icon-right-button:before {
+  content: "\e906";
+}
+.icon-right-button:before {
+  content: "\e907";
+}
+.icon-startdate:before {
+  content: "\e908";
+}
+.icon-STF:before {
+  content: "\e909";
+}
+.icon-STR:before {
+  content: "\e90a";
+}
+.icon-swipper-arrow:before {
+  content: "\e90b";
+}
+.icon-TRN:before {
+  content: "\e90c";
+}
+.icon-arrow-up:before {
+  content: "\e90d";
+  color: #004273;
+  font-size: 8px;
+  margin-left: 5px;
+}
+.icon-BK:before {
+  content: "\e90e";
+}
+.icon-DCF:before {
+  content: "\e90f";
+}
+.icon-arrow-down:before {
+  content: "\e910";
+  color: #004273;
+  font-size: 8px;
+  margin-left: 5px;
+}
+.icon-enddate:before {
+  content: "\e911";
+}

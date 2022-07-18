@@ -1,0 +1,67 @@
+.ShipmentInformation {
+  position: relative;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.ShipmentInformation .List {
+  padding: 5px;
+  margin-top: 10px;
+  max-height: 336px;
+  overflow-y: auto;
+}
+
+.ShipmentInformation .List .item {
+  border-radius: 5px;
+  background: #e1ecf2;
+  padding: 2px 15px;
+  margin-bottom: 10px;
+}
+
+.ShipmentInformation .List .item .title {
+  height: 20px;
+  font-size: .875rem;
+  white-space: nowrap;
+}
+
+.ShipmentInformation .List .item .detail {
+  height: 20px;
+}
+
+.ShipmentInformation .HaritaText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+}
+
+.ShipmentInformation .HaritaText i {
+  margin-left: 3px;
+  font-size: 30px;
+}
+
+.ShipmentInformation ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ShipmentInformation ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.ShipmentInformation ::-webkit-scrollbar-thumb {
+  background: #004273;
+  border-radius: 10px;
+}
+
+.ShipmentInformation ::-webkit-scrollbar-thumb:hover {
+  background: #004273;
+}
+/*# sourceMappingURL=ShipmentInformation.module.css.map */

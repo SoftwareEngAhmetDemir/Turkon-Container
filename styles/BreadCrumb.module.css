@@ -1,0 +1,17 @@
+.BreadCrumb{
+    display: flex;
+}
+.BreadCrumb .breaditem:not(:last-child):after{
+    content: ' /';
+    color: #002d73;
+}
+.BreadCrumb .breaditem{
+    /* padding: 5px; */
+    margin-left: 5px;
+    margin-bottom: 10px;
+  
+}
+.BreadCrumb .breaditem a{
+    text-decoration: none;
+    color: #002d73;
+}

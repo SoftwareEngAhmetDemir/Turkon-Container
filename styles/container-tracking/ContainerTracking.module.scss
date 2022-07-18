@@ -1,0 +1,19 @@
+@import "../libs.scss";
+
+.ContainerTracking {
+    color: #004273;
+
+    h1 {
+        font-size: 40px;
+        padding: 30px 0;
+        font-weight: 500;
+    }
+}
+@include media-breakpoint-down(lg) {
+    .ContainerTracking {
+        h1 {
+            font-size: 24px;
+            padding: 20px 0;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+@import "../libs.scss";
+
+.SorgulamaForm {
+  margin: 0;
+  position: relative;
+  background: #f9fbfd;
+  padding: 3%;
+  border-top: 4px solid #e1ecf2;
+  input {
+    font-size: 1rem;
+    height: 50px;
+    width: 100%;
+  }
+  label {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .vasif {
+    * {
+      line-height: 0.2;
+      font-size: 0.8rem;
+      margin-top: 10px;
+      margin-left: 15px;
+      padding: 0;
+    }
+  }
+  .btnContainer {
+    width: 142px;
+    height: 50px;
+
+    .FormBtn {
+      width: 142px;
+      height: 50px;
+      border-radius: 10px;
+      background: linear-gradient(#f06d75 0%, #d9000d 8.87%, #6d0007 100%);
+      margin-bottom: 40px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      color: #fff;
+      text-align: center;
+      box-shadow: -3px 3px #d9000d, 3px -3px #d9000d, -3px -3px #d9000d, 3px 3px #d9000d;
+      filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+      border-color: #d9000d;
+      border-width: 1px;
+    }
+  }
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #004273;
+    opacity: 1; /* Firefox */
+  }
+  input {
+    color: #004273 !important;
+    border: 1px solid #004273;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .SorgulamaForm {
+    .btnContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: auto;
+      margin-top: 25px;
+    }
+    .vasif {
+      * {
+        margin-left: 26px;
+      }
+    }
+  }
+}

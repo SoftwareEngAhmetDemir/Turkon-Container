@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "DINNextCYR";
+    src: url("../public/text-fonts/regular/DINNextCYR-Regular.eot") format("eot"),
+    url("../public/text-fonts/regular/DINNextCYR-Regular.otf") format("otf"),
+    url("../public/text-fonts/regular/DINNextCYR-Regular.woff") format("woff"),
+    url("../public/text-fonts/regular/DINNextCYR-Regular.woff2") format("woff2"),
+    url("../public/text-fonts/regular/DINNextCYR-Regular.ttf") format("ttf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "DINNextCYR";
+    src: url("../public/text-fonts/bold/DINNextCYR-Bold.eot") format("eot"),
+    url("../public/text-fonts/bold/DINNextCYR-Bold.otf") format("otf"),
+    url("../public/text-fonts/bold/DINNextCYR-Bold.woff") format("woff"),
+    url("../public/text-fonts/bold/DINNextCYR-Bold.woff2") format("woff2"),
+    url("../public/text-fonts/bold/DINNextCYR-Bold.ttf") format("ttf");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../public/fonts-icon/icomoon.eot?xw4cgh');
+    src:  url('../public/fonts-icon/icomoon.eot?xw4cgh#iefix') format('embedded-opentype'),
+      url('../public/fonts-icon/icomoon.ttf?xw4cgh') format('truetype'),
+      url('../public/fonts-icon/icomoon.woff?xw4cgh') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }

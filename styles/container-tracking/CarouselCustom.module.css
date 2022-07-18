@@ -1,0 +1,160 @@
+.swiper-slide {
+  width: 122px;
+  height: 152px;
+  background: #e1ecf2;
+  border-radius: 10px;
+  -webkit-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
+}
+
+.swiper-slide-next + .swiper-slide {
+  width: 122px;
+  height: 174px;
+}
+
+.activeCard {
+  width: 122px;
+  height: 174px;
+  background: #004273;
+  color: white !important;
+}
+
+.swiper-slide::after {
+  border: 1px solid transparent;
+  width: 15px;
+  height: 15px;
+  content: "";
+  display: inline-block;
+  color: transparent;
+  background-image: url("/images/swipper-arrow.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -18px;
+  padding: 0;
+  top: 90px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-size: 15px;
+}
+
+.swiper-slide:last-of-type::after {
+  width: 0;
+  height: 0;
+}
+
+.rightbutton {
+  width: 30px !important;
+  height: 30px !important;
+  right: -25px;
+  left: auto;
+  position: absolute;
+  top: 80px;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  background-color: transparent;
+  border: 0;
+  background-image: url("/images/right-button.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.leftbutton {
+  width: 30px !important;
+  height: 30px !important;
+  left: -18px;
+  position: absolute;
+  top: 80px;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  background-color: transparent;
+  border: 0;
+  background-image: url("/images/left-button.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiperCustomContainer {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 174px;
+}
+
+.swiperCustomContainer .carousel-card .top {
+  margin-top: 15px;
+}
+
+.swiperCustomContainer .carousel-card .top img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 57.42px;
+  height: 20.46px;
+  background: transparent;
+}
+
+.swiperCustomContainer .carousel-card .top .title {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.swiperCustomContainer .carousel-card .bottom {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  width: 100px;
+  line-height: 20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.swiperCustomContainer .carousel-card .bottom .title {
+  font-weight: bold;
+  font-size: 9px;
+  text-align: center;
+}
+
+.swiperCustomContainer .carousel-card .bottom .detail {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+/*# sourceMappingURL=CarouselCustom.module.css.map */

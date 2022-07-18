@@ -1,0 +1,114 @@
+.ContainerMovement {
+  position: relative;
+}
+
+.ContainerMovement .bord {
+  border-radius: 10px 10px 0px 0px;
+  background: #e1ecf2;
+  margin-top: 10px;
+  margin: 0 !important;
+  padding-left: 22px;
+}
+
+.ContainerMovement .bord .title {
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.ContainerMovement .bord .desc {
+  height: 18px;
+  font-size: 14px;
+}
+
+.ContainerMovement .bord,
+.ContainerMovement .bordLines {
+  min-height: 60px;
+  margin: 0;
+  border: 1px solid #004273;
+  padding: 22px;
+}
+
+.ContainerMovement .bord .title,
+.ContainerMovement .bordLines .title {
+  font-size: 9px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.ContainerMovement .bord .desc,
+.ContainerMovement .bordLines .desc {
+  height: 18px;
+  font-size: 14px;
+}
+
+.ContainerMovement .bord .kamyonc,
+.ContainerMovement .bordLines .kamyonc {
+  height: 37px;
+  width: 56px;
+  border-radius: 5px;
+  background: #004273;
+}
+
+.ContainerMovement .bord .kamyonc .icondesc,
+.ContainerMovement .bordLines .kamyonc .icondesc {
+  font-size: 9px;
+}
+
+.ContainerMovement .BordDetail {
+  position: relative;
+  height: 29px;
+  border-radius: 0px 0px 10px 10px;
+  background: transparent;
+  border: 1px solid #004273;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  align-items: center;
+}
+
+.ContainerMovement .BordDetail .Detaylar {
+  position: relative;
+}
+
+.ContainerMovement .BordDetail .Detaylar .text {
+  font-size: 0.55rem;
+  font-weight: bold;
+  position: relative;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ContainerMovement .BordDetail .Detaylar .text:hover {
+  cursor: pointer;
+}
+
+.ContainerMovement .BordDetail .Detaylar i {
+  position: relative;
+  left: 3px;
+  bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+@media (max-width: 991.98px) {
+  .ContainerMovement .bord .kamyonc {
+    width: 100px;
+  }
+}
+/*# sourceMappingURL=ContainerMovement.module.css.map */
